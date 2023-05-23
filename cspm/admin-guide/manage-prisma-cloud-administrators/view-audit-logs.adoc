@@ -28,7 +28,7 @@ image::audit-logs-1.png[scale=40]
 |*Description*
 
 
-|*action*
+|*operation*
 |Contains the entire content of the audit log, which describes the actions performed by the Prisma Cloud user and details of the resource changed by the action.
 
 
@@ -89,17 +89,6 @@ The values for this field are:
 * Repository
 
 
-|*result*
-|Result of the action performed.
-
-The values for this field are:
-
-* Success
-* Successful
-* True
-* Failed
-* Failure
-* False
 
 |*timestamp*
 |Time that the Prisma Cloud audit event occurred, in epoch format and UTC timezone.
